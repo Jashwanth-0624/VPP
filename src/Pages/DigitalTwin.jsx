@@ -5,7 +5,7 @@ import { Badge } from "../components/ui/badge.jsx";
 import { Button } from "../components/ui/button.jsx";
 import { Activity, Sun, Wind, Battery, Zap, RefreshCw } from "lucide-react";
 
-import CampusMap from "../Components/digitaltwin/CampusMap.jsx";
+import CampusMap from "../components/digitaltwin/CampusMap.jsx";
 
 export default function DigitalTwin() {
   const [assets, setAssets] = useState([]);

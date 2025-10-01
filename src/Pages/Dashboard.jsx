@@ -3,10 +3,10 @@ import { Asset, SensorData, Forecast, Alert } from "../entities/all.js";
 import { InvokeLLM } from "../integrations/Core.js";
 import { Activity, Sun, Wind, Battery, Zap, TrendingUp } from "lucide-react";
 
-import MetricCard from "../Components/dashboard/MetricCard.jsx";
-import EnergyFlowChart from "../Components/dashboard/EngergyFlowChart.jsx";
-import AlertPanel from "../Components/dashboard/AlertPanel.jsx";
-import RecommendationEngine from "../Components/dashboard/RecommendationEngine.jsx";
+import MetricCard from "../components/dashboard/MetricCard.jsx";
+import EnergyFlowChart from "../components/dashboard/EngergyFlowChart.jsx";
+import AlertPanel from "../components/dashboard/AlertPanel.jsx";
+import RecommendationEngine from "../components/dashboard/RecommendationEngine.jsx";
 
 export default function Dashboard() {
   const [assets, setAssets] = useState([]);

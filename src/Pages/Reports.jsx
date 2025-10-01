@@ -5,9 +5,9 @@ import { FileText } from "lucide-react";
 import { format } from "date-fns";
 import { exportCSV, exportExcel, exportPDF } from "../utils/exporters.js";
 
-import ReportGenerator from "../Components/reports/ReportGenerator.jsx";
-import ReportList from "../Components/reports/ReportList.jsx";
-import ReportViewer from "../Components/reports/ReportViewer.jsx";
+import ReportGenerator from "../components/reports/ReportGenerator.jsx";
+import ReportList from "../components/reports/ReportList.jsx";
+import ReportViewer from "../components/reports/ReportViewer.jsx";
 
 export default function Reports() {
   const [reports, setReports] = useState([]);

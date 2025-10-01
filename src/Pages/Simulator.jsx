@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import { InvokeLLM } from "../integrations/Core.js";
 import { TestTube } from "lucide-react";
 
-import ScenarioBuilder from "../Components/simulator/ScenarioBuilder.jsx";
-import SimulationResults from "../Components/simulator/SimulationResults.jsx";
+import ScenarioBuilder from "../components/simulator/ScenarioBuilder.jsx";
+import SimulationResults from "../components/simulator/SimulationResults.jsx";
 
 export default function Simulator() {
   const [currentScenario, setCurrentScenario] = useState({
